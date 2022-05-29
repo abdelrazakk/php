@@ -1,0 +1,77 @@
+.barre-navigation {
+    background: transparent;
+    margin-bottom: 20px;
+}
+
+/* éléments de la navbar */
+
+.selected-nav-link {
+    color: rgb(0, 110, 184)!important;
+}
+
+.nav-link {
+    background: transparent;
+    padding: 0;
+    margin: 5px 10px;
+    outline: none;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    transition: all ease 0.2s;
+}
+
+    .nav-link:hover {
+        color: rgb(0, 153, 255)!important;
+        margin-top: -3px;
+        padding-bottom: 3px;
+    }
+
+.navbar-nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* logo */
+
+
+.logo-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.text-logo-navbar {
+    margin: 10px 10px 0px 10px;
+    font-size: 1.8rem;
+    font-family: 'Fugaz One', cursive;
+}
+
+    .text-logo-navbar a {
+        color: black;
+        user-select: none;
+        text-decoration: none;
+    }
+
+.icon-logo-navbar {
+    font-size: 3rem;
+    margin: 0 5px;
+}
+
+    .icon-logo-navbar a {
+        color: black;
+        text-decoration: none;
+    }
+
+
+
+
+/* bouton menu déroulant */
+
+.bouton-menu {
+    background: rgb(0, 110, 184);
+    color: white!important;
+}

@@ -1,0 +1,22 @@
+INCLUDES    : tout ce qui se répète plusieurs fois dans une page
+
+SCRIPTS     : process, session, connexionBDD
+    - process
+        - clients
+        - vehicules
+        - vendeurs
+    - connexion
+        .connexion-BDD.php, session, process_login
+
+COMPONENTS  : affichages, formulaire, informations
+    - affichages
+    - formulaire
+    - informations
+
+STYLES      : css
+
+MAIN        : pages principales
+    - pages de connexion/inscriptions
+    - client
+    - vendeur
+    - vehicules

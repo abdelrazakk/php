@@ -1,0 +1,147 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* affichage du contenu */
+
+.section {
+    background: white;
+    padding: 20px;
+}
+
+    .titre-section {
+        text-transform: uppercase;
+    }
+
+    .section-header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+
+/* affichage des elements comme vehicules, utilisateurs, etc */
+
+
+.card-title {
+    font-weight: bold;
+}
+
+.bouton-card {
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+    border: 3px solid rgb(0, 110, 184);
+    background: white;
+    border-radius: 10px;
+}
+
+    .bouton-card:hover {
+        background: rgb(0, 110, 184);
+        color: white;
+    }
+
+.bouton-card-red {
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+    border: 3px solid rgb(161, 0, 0);
+    background: white;
+    border-radius: 10px;
+}
+
+    .bouton-card-red:hover {
+        background: rgb(161, 0, 0);
+        color: white;
+    }
+
+
+/* bouton ajout, modificatoin, suppression, annulation */
+
+.save-group-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bouton-ajout{
+    border: none;
+    min-width: 100px;
+    padding: 0 20px;
+    border-radius: 5px;
+    background: rgb(0, 110, 184);
+    color: white;
+    transition: transform .2s;
+}
+
+    .bouton-ajout:hover {
+        transform: scale(1.05);
+    }
+
+
+    /* filtre  */
+
+.select-filter {
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.container-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* footer */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+
+/* profil */
+
+.input {
+    border-radius: 10px;
+    border: solid 2px rgb(0, 110, 184);
+    background: rgb(231, 231, 231);
+    text-align: center;
+    outline: none;
+    box-shadow: none;
+}
+
+.label {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bouton-principal {
+    color: black;
+    text-decoration: none;
+    transition: 0.4s;
+    border: 3px solid rgb(0, 110, 184);
+    background: white;
+    border-radius: 10px;
+    min-width: 100px;
+}
+
+.bouton-principal:hover {
+    background: rgb(0, 110, 184);
+    color: white;
+}
